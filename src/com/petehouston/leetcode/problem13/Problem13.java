@@ -3,7 +3,7 @@ package com.petehouston.leetcode.problem13;
 public class Problem13 {
     public int romanToInt(String s) {
         if (s.length() < 1) return 0;
-        char[] data = s.toCharArray()
+        char[] data = s.toCharArray();
 
         int total = 0;
         for (int i = 0; i < s.length(); i++) {
